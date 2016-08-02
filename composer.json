@@ -1,0 +1,30 @@
+{
+    "name": "larsbadke/stock-faker",
+    "type": "library",
+    "description": "Stock-Faker is a PHP library that generates fake stock data for you.",
+    "keywords": ["faker", "fixtures", "data", "stock"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lars Badke"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3|^7.0",
+        "fzaninotto/faker": "^1.6",
+        "larsbadke/stock-simulator": "^0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StockFaker\\": "src/Faker/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StockFaker\\Test\\": "test/Faker/"
+        }
+    }
+}
