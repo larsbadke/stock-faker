@@ -47,6 +47,19 @@ echo $stock->high;
 
 ```
 
+Stock key figures
+```php
+<?php
+
+$stock = StockFaker\Factory::create();
+
+echo $stock->variance;
+// 4.56
+
+echo $stock->mu;
+// 3.45
+
+```
 
 #### Simulate stock movements
 

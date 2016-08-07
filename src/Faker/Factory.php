@@ -7,7 +7,7 @@ use Simulator\Simulator;
 class Factory
 {
 
-    protected static $defaultProviders = array('Base', 'Quote');
+    protected static $defaultProviders = array('Base', 'Quote', 'KeyFigure');
 
     public static function create()
     {
