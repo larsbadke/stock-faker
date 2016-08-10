@@ -135,4 +135,4 @@ for($i=0;$i<20;$i++){
 
 ## License
 
-Stock is released under the MIT Licence. See the bundled LICENSE file for details.
+Stock-Faker is released under the MIT Licence. See the bundled LICENSE file for details.
